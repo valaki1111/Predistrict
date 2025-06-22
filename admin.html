@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Admin - Manage Questions</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Admin Panel</h1>
+</header>
+
+<section>
+  <h2>Create New Question</h2>
+  <form id="questionForm">
+    <label>
+      Question text:<br />
+      <input type="text" id="questionText" required />
+    </label><br /><br />
+    <label>
+      Options (comma separated):<br />
+      <input type="text" id="questionOptions" placeholder="Yes,No" required />
+    </label><br /><br />
+    <button type="submit">Add Question</button>
+  </form>
+</section>
+
+<section>
+  <h2>Existing Questions</h2>
+  <ul id="existingQuestions"></ul>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

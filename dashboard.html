@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f0f4f8; }
+    .dashboard { background: white; padding: 20px; border-radius: 8px; max-width: 600px; }
+    h1, h2 { color: #1e3a8a; }
+    ol { padding-left: 20px; }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <h1>Dashboard</h1>
+    <p><strong>Questions left:</strong> <span id="questionsLeft">Loading...</span></p>
+    <p><strong>Active package:</strong> <span id="activePackage">Loading...</span></p>
+    <p><strong>Your rank:</strong> <span id="rankPosition">Loading...</span></p>
+
+    <h2>Leaderboard</h2>
+    <ol id="leaderboardList">
+      <li>Loading...</li>
+    </ol>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
